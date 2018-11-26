@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaz.CampoBatallaController">
+   <children>
+      <ImageView fx:id="escenarioCambiar" fitHeight="701.0" fitWidth="1002.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../Image/1.png" />
+         </image>
+      </ImageView>
+      <ProgressBar layoutX="253.0" layoutY="64.0" prefHeight="34.0" prefWidth="473.0" progress="0.0" style="-fx-border-color: dodgerblue;" />
+      <Label fx:id="nivelSiguiente" alignment="CENTER" layoutX="727.0" layoutY="63.0" prefHeight="26.0" prefWidth="56.0" style="-fx-background-color: Dodgerblue; -fx-background-radius: 5; -fx-border-color: blue; -fx-border-radius: 5;" text="0" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="nivelActual" alignment="CENTER" layoutX="200.0" layoutY="63.0" prefHeight="26.0" prefWidth="56.0" style="-fx-background-color: Dodgerblue; -fx-background-radius: 5; -fx-border-color: blue; -fx-border-radius: 5;" text="0" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="score" layoutX="440.0" layoutY="8.0" text="2500" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Bodoni MT Black" size="57.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="personajeCambiar" fitHeight="137.0" fitWidth="288.0" layoutX="200.0" layoutY="559.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/tanque.gif" />
+         </image></ImageView>
+   </children>
+</AnchorPane>
