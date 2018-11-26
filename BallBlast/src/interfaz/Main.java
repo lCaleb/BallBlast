@@ -14,6 +14,7 @@ public class Main extends Application {
 	private Scene sceneCampo;
 	private Scene sceneCampoBatalla;
 	private Scene scenePuntaje;
+	private int amigo;
 
 	/**
 	 * Método que hereda de Application y da la primera escena en el escenario de
